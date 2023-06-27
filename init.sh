@@ -32,6 +32,7 @@ sudo apt install snapd
 sudo snap refresh
 echo "################Installing nmap.."
 sudo snap install nmap --classic
+sudo snap connect nmap:network-control
 echo "################Installing btop.."
 sudo snap install btop --classic
 echo "################Installing kubectl.."
